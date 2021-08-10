@@ -1,6 +1,15 @@
-db.voos.deleteMany(
+const result = db.voos.count(
   {
-    "empresa.nome": "GOL",
-    "litrosCombustivel": { $lt: 400 },
+    "empresa.nome": "PASSAREDO",
+    "natureza": "Doméstica"
+  }
+)
+
+db.resumoVoos.insertOne(
+  {
+    "empresa": "PASSAREDO",
+    "totalVoosDomesticos": result,
   }
 );
+
+db.resumoVoos.find({}, { _id: false });
