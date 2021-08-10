@@ -1,2 +1,2 @@
-use ("dataFlights");
-db.voos.find({}).count();
+use ('dataFlights');
+db.voos.find({});
