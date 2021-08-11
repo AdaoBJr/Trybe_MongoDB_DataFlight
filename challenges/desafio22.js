@@ -8,4 +8,4 @@ db.voos.find({ $and:
         { "aeroportoOrigem.sigla": { $eq: "SBGR" } },
         { "aeroportoDestino.sigla": { $eq: "KJFK" } },
     ] },
-    ] }).limit(1);
+    ] }, {_id: 0, vooId: 1}).limit(1);
