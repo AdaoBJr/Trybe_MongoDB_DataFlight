@@ -9,4 +9,3 @@ db.voos.find({ $and:
         { "aeroportoDestino.sigla": { $eq: "KJFK" } },
     ] },
     ] }).limit(1);
-    
