@@ -1,5 +1,5 @@
 db.voos.count(
   {
-    "aeroportoOrigem.pais": { $ne: "BRASIL"}
-  }
+    "aeroportoOrigem.pais": { $ne: "BRASIL" },
+  },
 );

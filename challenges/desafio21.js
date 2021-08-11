@@ -5,5 +5,5 @@ db.voos.findOne(
   {
     _id: false,
     vooId: true,
-  }
+  },
 );

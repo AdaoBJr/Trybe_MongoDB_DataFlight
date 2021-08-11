@@ -1,5 +1,5 @@
 db.voos.count(
   {
-    decolagens: {$gt: 20 }
-  }
+    decolagens: { $gt: 20 },
+  },
 );
