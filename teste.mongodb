@@ -1,5 +1,7 @@
 use ('dataFlights');
-db.voos.findOne({"rtk":{$exists: false}},{"vooId": true,_id: false} );
+db.voos.findOne({$and :
+ [{"litrosCombustivel":{$lte: 1000}},{"litrosCombustivel": {$exists: true}}]
+ },{"vooId":true,"litrosCombustivel":true,"_id":false });
 
 
 
