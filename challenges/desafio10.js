@@ -1,6 +1,6 @@
 db.voos.find({ 
     "empresa.nome": "GOL", 
-    ano: { $in: [2017] }
+    ano: { $in: [2017] },
 },
 { 
     vooId: true, 
@@ -9,5 +9,5 @@ db.voos.find({
     "aeroportoDestino.nome": true, 
     ano: true, 
     mes: true,
-    _id: false 
+    _id: false,
 }).limit(10);
