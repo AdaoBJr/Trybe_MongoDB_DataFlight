@@ -1,9 +1,16 @@
 use ('dataFlights');
-db.voos.deleteMany({$and: [
- {"empresa.nome": {$eq: "AZUL"}},
- {"litrosCombustivel" : {$lt : 400}}
-]});
+db.voos.find({$and:[
+  {"empresa.nome":{$eq:"PASSAREDO"}},
+  {"natureza":{$eq:"Doméstica"}}]}).count()
 
 
-use ('dataFlights')
-db.voos.find({ ano: { $in: [2017, 2018] } }).count();
+use ('dataFlights');
+db.voos.find()
+
+db.resumoVoos.insert({
+  empresa: "PASSAREDO",
+  totalVoosDomesticos:
+  db.voos.find({$and:[
+  {"empresa.nome":{$eq:"PASSAREDO"}},
+  {"natureza":{$eq:"Doméstica"}}]}).count()
+})
