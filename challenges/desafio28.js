@@ -10,4 +10,3 @@ db.resumoVoos.insertOne({
 db.resumoVoos
   .find({ empresa }, { _id: false })
   .limit(1);
-  
