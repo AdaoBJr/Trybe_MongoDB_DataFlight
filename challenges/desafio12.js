@@ -1,5 +1,6 @@
 db.voos.count(
   {
-    "aeroportoDestino.continente": { $ne: { $in: ["EUROPA", "ÁSIA", "OCEANIA"] } },
+    "aeroportoDestino.pais": { $in: ["BRASIL", "ARGENTINA", "CHILE"] },
   },
 );
+db.voos.count({  });
