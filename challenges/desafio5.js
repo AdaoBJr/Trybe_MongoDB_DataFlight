@@ -1,1 +1,1 @@
-db.voos.find().skip(10).limit(12);
+db.voos.find().limit(3).skip(9);
