@@ -1,1 +1,1 @@
-db.voos.count({ "natureza": { $in: ["Internacional"] } });
+db.voos.count({ natureza: { $in: ["Internacional"] } });
