@@ -10,4 +10,3 @@ db.voos
     { _id: false, vooId: true, "empresa.nome": true, litrosCombustivel: true },
   )
   .limit(1);
-  
