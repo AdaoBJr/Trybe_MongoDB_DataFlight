@@ -20,5 +20,5 @@ db.resumoVoos.find(
     _id: false,
     empresa: true,
     totalVoosDomesticos: true,
-  }
+  },
 );
