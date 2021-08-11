@@ -1,5 +1,5 @@
 db.voos.count(
   {
-    "empresa.nome": { $eq: "AZUL"},
-  }
+    "empresa.nome": { $eq: "AZUL" },
+  },
 );

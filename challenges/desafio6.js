@@ -7,5 +7,5 @@ db.voos.find(
     "empresa.sigla": true,
     "empresa.nome": true,
     passageiros: true,
-  }
+  },
 );
