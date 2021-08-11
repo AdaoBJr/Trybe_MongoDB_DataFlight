@@ -1,4 +1,2 @@
 use('dataFlights')
-db.voos.findOne(
-  {$and:[{litrosCombustivel: {$lte: 1000}}, {litrosCombustivel:{$exists: true}}]}, { vooId: 1,litrosCombustivel: 1, _id: 0 }
-);
+db.voos.findOne({ "passageiros.pagos": { $gt: 7000 } }, { vooId: 1, mes: 1, ano: 1, _id: 0 });
