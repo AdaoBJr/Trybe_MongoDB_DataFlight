@@ -1,7 +1,6 @@
 const empresa = "PASSAREDO";
-const natureza = "Doméstica";
 const totalVoosDomesticos = db.voos.count({ $and: [
-  { "empresa.nome": empresa }, { natureza },
+  { "empresa.nome": empresa }, { natureza: "Doméstica" },
 ] });
 
 db.resumoVoos.insertMany([{ empresa, totalVoosDomesticos }]);
