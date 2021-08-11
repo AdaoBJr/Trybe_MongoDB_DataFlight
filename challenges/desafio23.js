@@ -1,4 +1,4 @@
-db.voos.find({
+db.voos.findOne({
   $and:
     [{
       litrosCombustivel:
@@ -9,4 +9,4 @@ db.voos.find({
     },
     {
       _id: 0, vooId: 1, litrosCombustivel: 1,
-    }).limit(1);
+    });
