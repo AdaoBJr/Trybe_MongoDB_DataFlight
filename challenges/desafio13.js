@@ -5,7 +5,7 @@ db.voos.count(
         $nin: [
           "EUROPA",
           "ÁSIA",
-          "OCEANIA"
+          "OCEANIA",
         ],
       },
     },
