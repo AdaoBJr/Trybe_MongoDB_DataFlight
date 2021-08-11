@@ -1,1 +1,1 @@
-// iniciando o projeto MongoDB DataFlights
+db.voos.count();
