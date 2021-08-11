@@ -1,1 +1,10 @@
-db.voos.findOne({ litrosCombustivel: { $lte: 1000 } }, { vooId: true, _id: false });
+db.voos.findOne(
+  {
+    litrosCombustivel: { $exists: true, $lte: 2000 },
+  },
+  {
+    _id: false,
+    vooId: true,
+    litrosCombustivel: true,
+  },
+);
