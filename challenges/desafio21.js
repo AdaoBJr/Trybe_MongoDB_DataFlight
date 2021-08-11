@@ -1,7 +1,7 @@
 db.voos.findOne(
-  { "litrosCombustivel": { $gte: 1000 } },
+  { litrosCombustivel: { $gte: 1000 } },
   {
-     "_id": false,
-     "vooId": true
-  }
+     _id: false,
+     vooId: true,
+  },
 );
