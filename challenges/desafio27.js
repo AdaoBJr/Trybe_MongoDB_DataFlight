@@ -1,4 +1,3 @@
-use("dataFlights");
 db.resumoVoos.insertOne(
   {
     empresa: {
