@@ -1,1 +1,1 @@
-db.voos.find({ vooId: { $in: [743219, 743226, 743227] } }, { vooId: 1 });
+db.voos.find({ vooId: { $in: [743219, 743226, 743227] } }, { _id: 0, vooId: 1 });
