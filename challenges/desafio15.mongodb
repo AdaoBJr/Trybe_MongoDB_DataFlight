@@ -1,2 +1,2 @@
 use("dataFlights");
-db.voos.count({ natureza: "Internacional"});
+db.voos.count({ decolagens: {$gt: 20 }});
