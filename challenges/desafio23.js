@@ -9,4 +9,3 @@ db.voos
     { _id: false, vooId: true, litrosCombustivel: true },
   )
   .limit(1);
-  
