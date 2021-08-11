@@ -1,4 +1,3 @@
-use("dataFlights");
 db.voos.findOne(
   {
     litrosCombustivel: { $lt: 600 },
