@@ -1,5 +1,6 @@
 use ('dataFlights');
-db.voos.find({"aeroportoOrigem.pais": {$ne: "BRASIL" }}).count();
+db.voos.find({"decolagem":{$gt: 20}});
+
 
 
 
