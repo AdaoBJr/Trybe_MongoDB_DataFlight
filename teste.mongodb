@@ -1,7 +1,9 @@
 use ('dataFlights');
-db.voos.findOne({$and :
- [{"litrosCombustivel":{$lte: 600}},{"empresa.nome": {$nin: ["GOL","AZUL"]}}]
-},{"vooId":true,"litrosCombustivel":true,"_id":false,"empresa.nome":true});
+db.voos.deleteMany({$and: [
+ {"empresa.nome": {$eq: "AZUL"}},
+ {"litrosCombustivel" : {$lt : 400}}
+]});
 
 
-
+use ('dataFlights')
+db.voos.find({ ano: { $in: [2017, 2018] } }).count();
