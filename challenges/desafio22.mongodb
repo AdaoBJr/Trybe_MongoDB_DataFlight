@@ -1,0 +1,15 @@
+// use ('dataFlights');
+// db.voos.findOne({
+//   and: [
+//           { "aeroportoOrigem.sigla": "SBGR" },
+//           { "aeroportoDestino.sigla": "KJFK" },
+//           {
+//   or: [
+//                   { "empresa.name": ["DELTA AIRLINES"] },
+//                   { "empresa.name": ["AMERICAN AIRLINES"] }, 
+//               ],
+//           },
+//       ],
+//   }, { vooId: 1, _id: 0 });
+
+  // db.voos.findOne({ $or: [{ "empresa.name": "DELTA AIRLINES" }, { "empresa.name": "AMERICAN AIRLINES" }] }, { vooId: 1, _id: 0 });
