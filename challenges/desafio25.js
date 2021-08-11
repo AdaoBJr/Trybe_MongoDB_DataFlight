@@ -1,2 +1,1 @@
-db.voos.findOne({ "empresa.nome": { $ne: "AZUL" }, litrosCombustivel: { $gt: 400 } },
- { _id: 0, vooId: 1 }).count();
+db.voos.deleteMany({ $and: [{ "empresa.nome": "AZUL" }, { litrosCombustivel: { $lt: 400 } }] });
