@@ -1,6 +1,6 @@
 const COMPANY = "LATAM AIRLINES BRASIL";
 
-const total = db.voos(
+const total = db.voos.find(
   {
     natureza: "Doméstica",
     "empresa.nome": COMPANY,
