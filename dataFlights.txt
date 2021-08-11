@@ -1,0 +1,1096 @@
+[
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c488"
+    },
+    "vooId": 743218,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KJFK",
+      "nome": "NEW YORK",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 7237,
+      "gratis": 88
+    },
+    "carga": {
+      "paga": {
+        "kg": 165124,
+        "km": 1260886864
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 13897,
+        "km": 106117492
+      }
+    },
+    "ask": 68647640,
+    "rpk": 55261732,
+    "atk": 12179420,
+    "rtk": 5511634.25,
+    "distanciaVoada": 221444,
+    "decolagens": 29,
+    "assentos": 8990,
+    "payload": 1595000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c489"
+    },
+    "vooId": 743217,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KJFK",
+      "nome": "NEW YORK",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Não-regular",
+    "passageiros": {
+      "pagos": 352,
+      "gratis": 3
+    },
+    "carga": {
+      "paga": {
+        "kg": 8473,
+        "km": 64699828
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 4734320,
+    "rpk": 2687872,
+    "atk": 839960,
+    "rtk": 266290.22,
+    "distanciaVoada": 15272,
+    "decolagens": 2,
+    "assentos": 620,
+    "payload": 110000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48a"
+    },
+    "vooId": 743215,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KDFW",
+      "nome": "DALLAS/FORT WORTH",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 7116,
+      "gratis": 175
+    },
+    "carga": {
+      "paga": {
+        "kg": 234114,
+        "km": 1925587650
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 59356,
+        "km": 488203100
+      }
+    },
+    "ask": 73942750,
+    "rpk": 58529100,
+    "atk": 13118875,
+    "rtk": 6803473.25,
+    "distanciaVoada": 238525,
+    "decolagens": 29,
+    "assentos": 8990,
+    "payload": 1595000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48b"
+    },
+    "vooId": 743216,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KJFK",
+      "nome": "NEW YORK",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGL",
+      "nome": "RIO DE JANEIRO - GALEÃO",
+      "uf": "RJ",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 4877,
+      "gratis": 110
+    },
+    "carga": {
+      "paga": {
+        "kg": 38430,
+        "km": 296026290
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 19879,
+        "km": 153127937
+      }
+    },
+    "ask": 55862156,
+    "rpk": 37567531,
+    "atk": 9705780,
+    "rtk": 3266719.05,
+    "distanciaVoada": 215684,
+    "decolagens": 28,
+    "assentos": 7252,
+    "payload": 1260000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48c"
+    },
+    "vooId": 743221,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 0,
+      "gratis": 0
+    },
+    "carga": {
+      "paga": {
+        "kg": 0,
+        "km": 0
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 0,
+    "rpk": 0,
+    "atk": 0,
+    "rtk": 0,
+    "distanciaVoada": 0,
+    "decolagens": 0,
+    "assentos": 0,
+    "payload": 0
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48d"
+    },
+    "vooId": 743220,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMCO",
+      "nome": "ORLANDO",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 0,
+      "gratis": 0
+    },
+    "carga": {
+      "paga": {
+        "kg": 0,
+        "km": 0
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 56202,
+    "rpk": 0,
+    "atk": 4522,
+    "rtk": 0,
+    "distanciaVoada": 323,
+    "decolagens": 1,
+    "assentos": 174,
+    "payload": 14000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48e"
+    },
+    "vooId": 743223,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBBR",
+      "nome": "BRASÍLIA",
+      "uf": "DF",
+      "regiao": "CENTRO-OESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 3820,
+      "gratis": 60
+    },
+    "carga": {
+      "paga": {
+        "kg": 2554,
+        "km": 14787660
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 28208880,
+    "rpk": 22159843,
+    "atk": 2269680,
+    "rtk": 1676775.88,
+    "distanciaVoada": 162120,
+    "decolagens": 28,
+    "assentos": 4872,
+    "payload": 392000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c48f"
+    },
+    "vooId": 743222,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBBR",
+      "nome": "BRASÍLIA",
+      "uf": "DF",
+      "regiao": "CENTRO-OESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Não-regular",
+    "passageiros": {
+      "pagos": 121,
+      "gratis": 0
+    },
+    "carga": {
+      "paga": {
+        "kg": 0,
+        "km": 0
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 1007460,
+    "rpk": 700590,
+    "atk": 81060,
+    "rtk": 52544.25,
+    "distanciaVoada": 5790,
+    "decolagens": 1,
+    "assentos": 174,
+    "payload": 14000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c490"
+    },
+    "vooId": 743224,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBCF",
+      "nome": "BELO HORIZONTE - CONFINS",
+      "uf": "MG",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 4966,
+      "gratis": 57
+    },
+    "carga": {
+      "paga": {
+        "kg": 69151,
+        "km": 443760267
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 39328756,
+    "rpk": 31886482,
+    "atk": 6492955,
+    "rtk": 2835246.41,
+    "distanciaVoada": 185513,
+    "decolagens": 29,
+    "assentos": 6148,
+    "payload": 1015000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c491"
+    },
+    "vooId": 743219,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KLAX",
+      "nome": "LOS ANGELES",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 5554,
+      "gratis": 62
+    },
+    "carga": {
+      "paga": {
+        "kg": 145909,
+        "km": 1443331828
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 13952,
+        "km": 138013184
+      }
+    },
+    "ask": 70856396,
+    "rpk": 54940168,
+    "atk": 12909060,
+    "rtk": 5701857.61,
+    "distanciaVoada": 286868,
+    "decolagens": 29,
+    "assentos": 7163,
+    "payload": 1305000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c492"
+    },
+    "vooId": 743226,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBEG",
+      "nome": "MANAUS",
+      "uf": "AM",
+      "regiao": "NORTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 2712,
+      "gratis": 19
+    },
+    "carga": {
+      "paga": {
+        "kg": 239,
+        "km": 923496
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 15332352,
+    "rpk": 10479168,
+    "atk": 1437408,
+    "rtk": 786861.09,
+    "distanciaVoada": 119784,
+    "decolagens": 31,
+    "assentos": 3968,
+    "payload": 372000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c493"
+    },
+    "vooId": 743227,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGL",
+      "nome": "RIO DE JANEIRO - GALEÃO",
+      "uf": "RJ",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Não-regular",
+    "passageiros": {
+      "pagos": 1567,
+      "gratis": 84
+    },
+    "carga": {
+      "paga": {
+        "kg": 14618,
+        "km": 97911364
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 7643,
+        "km": 51192814
+      }
+    },
+    "ask": 14829372,
+    "rpk": 10495766,
+    "atk": 2712690,
+    "rtk": 936286.62,
+    "distanciaVoada": 60282,
+    "decolagens": 9,
+    "assentos": 2214,
+    "payload": 405000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c494"
+    },
+    "vooId": 743229,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Não-regular",
+    "passageiros": {
+      "pagos": 1299,
+      "gratis": 28
+    },
+    "carga": {
+      "paga": {
+        "kg": 18193,
+        "km": 119218729
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 1097,
+        "km": 7188641
+      }
+    },
+    "ask": 10157150,
+    "rpk": 8512347,
+    "atk": 1802075,
+    "rtk": 764833.39,
+    "distanciaVoada": 32765,
+    "decolagens": 5,
+    "assentos": 1550,
+    "payload": 275000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c495"
+    },
+    "vooId": 743228,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGL",
+      "nome": "RIO DE JANEIRO - GALEÃO",
+      "uf": "RJ",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 8995,
+      "gratis": 248
+    },
+    "carga": {
+      "paga": {
+        "kg": 136208,
+        "km": 912321184
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 29051,
+        "km": 194583598
+      }
+    },
+    "ask": 83209254,
+    "rpk": 60248510,
+    "atk": 14702110,
+    "rtk": 5625543.03,
+    "distanciaVoada": 328202,
+    "decolagens": 49,
+    "assentos": 12423,
+    "payload": 2195000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c496"
+    },
+    "vooId": 743230,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBGR",
+      "nome": "SÃO PAULO - GUARULHOS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 22177,
+      "gratis": 373
+    },
+    "carga": {
+      "paga": {
+        "kg": 389397,
+        "km": 2526745058
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 43091,
+        "km": 282375323
+      }
+    },
+    "ask": 174283588,
+    "rpk": 145325881,
+    "atk": 30930160,
+    "rtk": 13733534.94,
+    "distanciaVoada": 563558,
+    "decolagens": 86,
+    "assentos": 26596,
+    "payload": 4720000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c497"
+    },
+    "vooId": 743231,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBKP",
+      "nome": "CAMPINAS",
+      "uf": "SP",
+      "regiao": "SUDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 5102,
+      "gratis": 20
+    },
+    "carga": {
+      "paga": {
+        "kg": 94712,
+        "km": 620363600
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 41599050,
+    "rpk": 33418100,
+    "atk": 6648250,
+    "rtk": 3126721.1,
+    "distanciaVoada": 189950,
+    "decolagens": 29,
+    "assentos": 6351,
+    "payload": 1015000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c498"
+    },
+    "vooId": 743232,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBPA",
+      "nome": "PORTO ALEGRE",
+      "uf": "RS",
+      "regiao": "SUL",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 1834,
+      "gratis": 14
+    },
+    "carga": {
+      "paga": {
+        "kg": 34900,
+        "km": 266327100
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 0,
+    "rpk": 14099736,
+    "atk": 0,
+    "rtk": 1323807.3,
+    "distanciaVoada": 0,
+    "decolagens": 0,
+    "assentos": 0,
+    "payload": 0
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c49a"
+    },
+    "vooId": 743234,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBSV",
+      "nome": "SALVADOR",
+      "uf": "BA",
+      "regiao": "NORDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 1583,
+      "gratis": 31
+    },
+    "carga": {
+      "paga": {
+        "kg": 2181,
+        "km": 13635612
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 14142024,
+    "rpk": 9918489,
+    "atk": 1137864,
+    "rtk": 757522.28,
+    "distanciaVoada": 81276,
+    "decolagens": 13,
+    "assentos": 2262,
+    "payload": 182000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c499"
+    },
+    "vooId": 743233,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "SBRF",
+      "nome": "RECIFE",
+      "uf": "PE",
+      "regiao": "NORDESTE",
+      "pais": "BRASIL",
+      "continente": "AMÉRICA DO SUL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 3290,
+      "gratis": 82
+    },
+    "carga": {
+      "paga": {
+        "kg": 633,
+        "km": 3911940
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 25807680,
+    "rpk": 20332200,
+    "atk": 2076480,
+    "rtk": 1528826.94,
+    "distanciaVoada": 148320,
+    "decolagens": 24,
+    "assentos": 4176,
+    "payload": 336000
+  },
+  {
+    "_id": {
+      "$oid": "5e53b45dad9912102038c49b"
+    },
+    "vooId": 743235,
+    "empresa": {
+      "sigla": "AAL",
+      "nome": "AMERICAN AIRLINES",
+      "nacionalidade": "ESTRANGEIRA"
+    },
+    "ano": 2016,
+    "mes": 1,
+    "aeroportoOrigem": {
+      "sigla": "KMIA",
+      "nome": "MIAMI",
+      "pais": "ESTADOS UNIDOS",
+      "continente": "AMÉRICA DO NORTE"
+    },
+    "aeroportoDestino": {
+      "sigla": "TJSJ",
+      "nome": "SAN JUAN",
+      "pais": "PORTO RICO",
+      "continente": "AMÉRICA CENTRAL"
+    },
+    "natureza": "Internacional",
+    "grupoVoo": "Regular",
+    "passageiros": {
+      "pagos": 0,
+      "gratis": 0
+    },
+    "carga": {
+      "paga": {
+        "kg": 0,
+        "km": 0
+      },
+      "gratis": {
+        "kg": 0,
+        "km": 0
+      },
+      "correio": {
+        "kg": 0,
+        "km": 0
+      }
+    },
+    "ask": 1477608,
+    "rpk": 0,
+    "atk": 118888,
+    "rtk": 0,
+    "distanciaVoada": 8492,
+    "decolagens": 5,
+    "assentos": 870,
+    "payload": 70000
+  }
+]
