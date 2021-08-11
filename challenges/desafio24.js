@@ -5,8 +5,8 @@ db.voos.findOne({
         {
             $nor:
             [
-                { "empresa.nome": "GOL"}, 
-                { "empresa.nome": "AZUL"},
+                { "empresa.nome": "GOL" }, 
+                { "empresa.nome": "AZUL" },
             ],
         },
         { litrosCombustivel: { $exists: true } },
