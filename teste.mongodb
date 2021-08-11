@@ -1,6 +1,5 @@
 use ('dataFlights');
-db.voos.find({"decolagem":{$gt: 20}});
-
+db.voos.findOne({"passageiros.pagos":{$gt: 7000}},{"vooId":true,"mes": true,"ano":true});
 
 
 
