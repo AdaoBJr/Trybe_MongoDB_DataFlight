@@ -17,6 +17,9 @@ db.voos.find({ "empresa.nome": "AZUL" }).count();
 use("dataFlights")
 db.voos.find({ "empresa.nome": "GOL" }).count();
 
-// Desafio 5
+// Desafio 5 FALHOU
 use("dataFlights")
 db.voos.find({}, { "_id": 0, "vooId": 1 }).limit(2).skip(10);
+
+// Desafio 6
+use("dataFlights")
