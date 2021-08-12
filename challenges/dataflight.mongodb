@@ -2,7 +2,11 @@ use('dataFlights');
 
 // db.voos.find();
 
-db.voos.deleteMany({$and:[{"empresa.nome":'AZUL'},
-{litrosCombustivel:{$lt:400}},
-]},
-);
+db.resumoVoos.insert({
+  empresa: "LATAM AIRLINES BRASIL",
+  totalVoosDomesticos: db.voos.find(
+    { natureza: "Doméstica", "empresa.nome": "LATAM AIRLINES BRASIL" },
+    ).count(),
+});
+
+db.resumoVoos.find({empresa:"LATAM AIRLINES BRASIL"}, { _id: 0, empresa: 1, totalVoosDomesticos: 1 });
