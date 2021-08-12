@@ -2,11 +2,4 @@ use('dataFlights');
 
 // db.voos.find();
 
-db.resumoVoos.insert({
-  empresa: "LATAM AIRLINES BRASIL",
-  totalVoosDomesticos: db.voos.find(
-    { natureza: "Doméstica", "empresa.nome": "LATAM AIRLINES BRASIL" },
-    ).count(),
-});
-
-db.resumoVoos.find({empresa:"LATAM AIRLINES BRASIL"}, { _id: 0, empresa: 1, totalVoosDomesticos: 1 });
+db.voos.find({ "passageiros.pagos": { $gt: 7000 } }, { vooId: 1, mes: 1, ano: 1, _id: 0 }).limit(1);
