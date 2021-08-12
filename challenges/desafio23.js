@@ -1,5 +1,4 @@
 db.voos.findOne({ 
-  litrosCombustivel: { $not: { $lte: 1000 } },
-  $exists: true, 
+  litrosCombustivel: { $not: { $gte: 1000 }, $exists: true },
 },
-{ _id: 0, vooId: 1, litrosComustivel: 1 });
+{ _id: 0, vooId: 1, litrosCombustivel: 1 });
