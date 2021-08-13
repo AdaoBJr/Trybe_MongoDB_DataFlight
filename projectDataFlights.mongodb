@@ -52,3 +52,7 @@ db.voos.find({
   "mes": 1,
   "ano": 1
 });
+
+// Desafio 11
+use("dataFlights")
+db.voos.find({ "aeroportoDestino.pais": { $ne: "ESTADOS UNIDOS" } }).count();
