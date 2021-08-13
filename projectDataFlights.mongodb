@@ -56,3 +56,7 @@ db.voos.find({
 // Desafio 11
 use("dataFlights")
 db.voos.find({ "aeroportoDestino.pais": { $ne: "ESTADOS UNIDOS" } }).count();
+
+// Desafio 12
+use("dataFlights")
+db.voos.find({ "aeroportoDestino.pais": { $in: ["BRASIL", "ARGENTINA", "CHILE"] } }).count();
