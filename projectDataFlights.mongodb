@@ -72,3 +72,7 @@ db.voos.find({ "aeroportoOrigem.pais": { $ne: "BRASIL" } }).count();
 // Desafio 15
 use("dataFlights")
 db.voos.find({ "decolagens": { $gt: 20 } }).count();
+
+// Desafio 16
+use("dataFlights")
+db.voos.find({ "natureza": { $eq: "Internacional" } }).count();
