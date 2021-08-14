@@ -126,3 +126,15 @@ db.voos.find({
   "_id": 0,
   "vooId": 1,
 }).limit(1);
+
+// Desafio 23
+use("dataFlights")
+db.voos.find({
+  "litrosCombustivel": { $gt: 1000 },
+  "litrosCombustivel": { $exists: 1 },
+},
+{
+  "_id": 0,
+  "vooId": 1,
+  "litrosCombustivel": 1,
+}).limit(1);
