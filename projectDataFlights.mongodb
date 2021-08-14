@@ -173,3 +173,10 @@ db.voos.find({
   "empresa.nome": 1,
   "litrosCombustivel": 1,
 }).limit(1);
+
+// Desafio 25
+use("dataFlights")
+db.voos.deleteMany({
+  "empresa.nome": "AZUL",
+  "litrosCombustivel": { $lt: 400 }
+});
