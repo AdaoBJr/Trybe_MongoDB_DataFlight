@@ -1,1 +1,1 @@
-db.getCollection("voos").find({});
+db("dataFlights").collection("voos").find({});
