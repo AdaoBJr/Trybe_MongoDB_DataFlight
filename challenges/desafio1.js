@@ -1,1 +1,1 @@
-db.getCollection("voos").find({});git
+db.getCollection("voos").find({});
