@@ -104,3 +104,13 @@ db.voos.find({ "litrosCombustivel": { $exists: 1 } }, { "_id": 0, "vooId": 1 }).
 // Desafio 20
 use("dataFlights")
 db.voos.find({ "rtk": { $exists: 0 } }, { "_id": 0, "vooId": 1 }).limit(1);
+
+// Desafio 21
+use("dataFlights")
+db.voos.find({
+  "litrosCombustivel": { $gt: 1000 }
+},
+{
+  "_id": 0,
+  "vooId": 1,
+}).limit(1);
