@@ -63,7 +63,11 @@ db.voos.find({ "aeroportoDestino.pais": { $in: ["BRASIL", "ARGENTINA", "CHILE"] 
 
 // Desafio 13
 use("dataFlights")
-db.voos.find({ "aeroportoDestino.continente": { $nin: ["EUROPA", "ÁSIA", "OCEANIA"] } }).count();
+db.voos.find({
+  "aeroportoDestino.continente": {
+    $nin: ["EUROPA", "ÁSIA", "OCEANIA"]
+  },
+}).count();
 
 // Desafio 14
 use("dataFlights")
