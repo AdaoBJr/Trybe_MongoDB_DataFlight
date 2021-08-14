@@ -84,7 +84,7 @@ db.voos.find({ "natureza": { $eq: "Doméstica" } }).count();
 // Desafio 18
 use("dataFlights")
 db.voos.find({
-  "passageiros.pagos": { $gt: 7000 }
+  "passageiros.pagos": { $gt: 7000 },
 },
 {
   "_id": 0,
@@ -92,3 +92,7 @@ db.voos.find({
   "mes": 1,
   "ano": 1,
 }).limit(1);
+
+// Desafio 19
+use("dataFlights")
+db.voos.find({ "litrosCombustivel": { $exists: 1 } }, { "_id": 0, "vooId": 1 }).limit(1);
