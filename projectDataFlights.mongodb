@@ -76,3 +76,7 @@ db.voos.find({ "decolagens": { $gt: 20 } }).count();
 // Desafio 16
 use("dataFlights")
 db.voos.find({ "natureza": { $eq: "Internacional" } }).count();
+
+// Desafio 17
+use("dataFlights")
+db.voos.find({ "natureza": { $eq: "Doméstica" } }).count();
