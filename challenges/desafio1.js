@@ -1,1 +1,1 @@
-db("dataFlights").collection("voos").find({});
+db.voos.count();
