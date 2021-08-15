@@ -1,1 +1,1 @@
-db.voos.count({ "aeroportoDestino.natureza": { $in: ["BRASIL", "ARGENTINA", "CHILE"] } });
+db.voos.count({ natureza: "Internacional" });
