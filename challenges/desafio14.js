@@ -1,1 +1,1 @@
-db.voos.count({ aeroportoOrigem: { $nin: "BRASIL" } });
+db.voos.count({ aeroportoOrigem: { $ne: "BRASIL" } });
