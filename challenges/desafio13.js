@@ -2,6 +2,14 @@ db.voos.count(
     { "aeroportoDestino.continente": 
     { $not:
     { $in:
-    ["EUROPA", "ASIA", "OCEANIA"],
+    ["EUROPA", "ÁSIA", "OCEANIA"],
+    } } },
+    );
+
+    db.voos.count(
+    { "aeroportoDestino.continente":
+    { $not:
+    { $in: 
+    ["EUROPA", "ÁSIA", "OCEANIA"],
     } } },
     );
