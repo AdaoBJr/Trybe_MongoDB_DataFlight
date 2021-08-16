@@ -155,12 +155,11 @@ db.voos.find({
 //   "litrosCombustivel": { $exists: true, $gt: 1000 },
 // }
 // {
-//   "litrosCombustivel": { $gt: 1000, $exists: true },
+//   "litrosCombustivel": { $lt: 1000, $exists: true },
 // }
 use("dataFlights")
 db.voos.find({
-  "litrosCombustivel": { $gt: 1000 },
-  "litrosCombustivel": { $exists: true },
+  "litrosCombustivel": { $lt: 1000, $exists: true },
 },
 {
   "_id": 0,
