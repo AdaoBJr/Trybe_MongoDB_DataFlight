@@ -1,1 +1,1 @@
-db.voos.count().pretty();;
+db.voos.count().pretty();
