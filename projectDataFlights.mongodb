@@ -187,3 +187,42 @@ db.voos.deleteMany({
   "empresa.nome": "GOL",
   "passageiros.pagos": { $gte: 5, $lte: 10 },
 });
+
+// Desafio 27
+// db.voos.count({
+//   "empresa.nome": "PASSAREDO",
+//   "natureza": "Doméstica",
+// });
+use("dataFlights")
+db.resumoVoos.insertOne({
+  "empresa": "PASSAREDO",
+  "totalVoosDomesticos": db.voos.count({
+    $and: [
+      { "empresa.nome": "PASSAREDO" },
+      { "natureza": "Doméstica" },
+    ],
+  }),
+});
+db.resumoVoos.find({
+  "empresa": "PASSAREDO",
+}, {
+  "_id": 0,
+  "empresa": 1,
+  "totalVoosDomesticos": 1,
+}).limit(1);
+
+// Desafio 28
+// db.voos.find({
+//   "empresa.nome": "LATAM AIRLINES BRASIL",
+//   "natureza": "Doméstica",
+// }).count();
+use("dataFlights")
+db.resumoVoos.insertOne({
+  "empresa": "LATAM AIRLINES BRASIL",
+  "totalVoosDomesticos": {
+    db.voos.find({
+    "empresa.nome": "LATAM AIRLINES BRASIL",
+    "natureza": "Doméstica",
+    }).count();
+  },
+});
