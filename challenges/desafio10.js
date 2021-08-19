@@ -1,5 +1,8 @@
 db.voos.find(
-    { ano: 2017 },
+    {
+        ano: 2017,
+        "empresa.nome": "GOL",
+    },
     {
         _id: 0,
         vooId: 1,
@@ -9,4 +12,4 @@ db.voos.find(
         mes: 1,
         ano: 1,
     },
-).limit(10);
+).limit(10).pretty();
