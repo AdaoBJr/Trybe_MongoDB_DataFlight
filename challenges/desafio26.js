@@ -1,1 +1,3 @@
-db.voos.deleteMany({ "empresa.nome": "GOL", "passageiros.pago": { $gte: 5, $lte: 10 } });
+db.voos.deleteMany(
+  { "empresa.nome": "GOL", "passageiros.pagos": { $gte: 5, $lte: 10 } },
+);
