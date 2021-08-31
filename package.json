@@ -24,5 +24,8 @@
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-trybe-backend": "1.0.3"
+  },
+  "dependencies": {
+    "connect-mongo": "^4.5.0"
   }
 }
