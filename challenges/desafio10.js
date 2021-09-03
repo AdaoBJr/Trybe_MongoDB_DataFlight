@@ -12,4 +12,4 @@ db.voos.find(
     mes: 1,
     ano: 1, 
   },
-);
+).limit(10);
